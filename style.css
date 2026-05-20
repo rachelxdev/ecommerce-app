@@ -1,0 +1,30 @@
+body {
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.product, .cart-item {
+  background: #1e293b;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background: #38bdf8;
+  cursor: pointer;
+}

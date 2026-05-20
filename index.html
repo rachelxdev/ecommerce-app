@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>E-Commerce Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div id="loginPage">
+
+      <h1>Login</h1>
+
+      <input type="text" id="username" placeholder="Username">
+
+      <input type="password" id="password" placeholder="Password">
+
+      <button onclick="login()">Login</button>
+
+    </div>
+
+    <div id="storePage" style="display:none;">
+
+      <h1>Mini E-Commerce Store</h1>
+
+      <div id="adminPanel" style="display:none;">
+
+        <h2>Admin Panel</h2>
+
+        <input type="text" id="productName" placeholder="Product name">
+
+        <input type="number" id="productPrice" placeholder="Price">
+
+        <button onclick="addProduct()">
+          Add Product
+        </button>
+
+      </div>
+
+      <div id="products"></div>
+
+      <h2>Cart</h2>
+
+      <div id="cart"></div>
+
+      <button onclick="checkout()">
+        Checkout
+      </button>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
